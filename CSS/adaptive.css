@@ -1,0 +1,440 @@
+@media screen and (max-width: 1229px) {
+    #header-container {
+        justify-content: space-between;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #header-menu {
+        margin: 0;
+    }
+
+    .logo a {
+        margin: 0;
+    }
+
+    #main-container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #advantages-container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #advantages-image {
+        max-width: 400px;
+    }
+
+    #advantages-image img {
+        max-width: 100%;
+    }
+
+    #select-container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #select-menu {
+        flex-wrap: wrap;
+        max-width: 728px;
+        margin: 0 auto;
+        padding-top: 7px;
+    }
+
+    .macaroons {
+        margin-top: 136px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .frm {
+        position: relative;
+        z-index: 10;
+    }
+
+    #footer-container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+}
+
+@media screen and (max-width: 1023px) {
+    #header .number {
+        display: none;
+    }
+
+    #header-container {
+        justify-content: normal;
+        max-width: 768px;
+    }
+
+    #header .logo {
+        margin-right: 103px;
+    }
+
+    #main-image {
+        right: 55px;
+        position: absolute;
+        bottom: 70px;
+    }
+
+    #main-container {
+        padding-bottom: 420px;
+        position: relative;
+        padding-top: 62px;
+        max-width: 768px;
+    }
+
+    #advantages-content {
+        display: block;
+        align-items: normal;
+    }
+
+    #advantages-content-left {
+        max-width: none;
+        text-align: center;
+    }
+
+    #advantages-content-left-title {
+        max-width: 568px;
+        margin: 0 auto;
+        padding-bottom: 61px;
+    }
+
+    #advantages-content-left-text {
+        max-width: 667px;
+        margin: 0 auto;
+    }
+
+    #advantages-image {
+        text-align: center;
+        max-width: 300px;
+        margin: 0 auto;
+        padding-top: 40px;
+    }
+
+    #points {
+        flex-wrap: wrap;
+        margin: 0 auto;
+        max-width: 494px;
+    }
+
+    .advantage {
+        margin-top: 80px;
+    }
+
+    .circle {
+        margin: 0 auto;
+    }
+
+    .advantage-title {
+        text-align: center;
+    }
+
+    .advantage-text {
+        text-align: center;
+    }
+
+    #select-menu {
+        padding-top: 7px;
+    }
+
+    .macaroons {
+        margin-top: 136px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    #footer-container {
+        padding-top: 120px;
+        max-width: 768px;
+    }
+
+    #buy-container {
+        position: relative;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 120px;
+        max-width: 768px;
+    }
+
+    #buy-content {
+        display: block;
+        margin: 0;
+    }
+
+    #buy-container #image {
+        position: absolute;
+        right: 0px;
+        bottom: -94px;
+    }
+
+    #strawberry-one {
+        left: 350px;
+        top: 330px;
+    }
+
+    #strawberry-two {
+        top: 172px;
+    }
+
+    #footer-container {
+        padding-top: 76px;
+        padding-bottom: 59px;
+    }
+
+    #buy-container #image {
+        max-width: 352px;
+        right: 20px;
+        bottom: -57px;
+    }
+
+    #buy-container #image img {
+        max-width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    #header .logo {
+        margin-right: 0px;
+    }
+
+    #header-menu {
+        display: none;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        margin: 0;
+        padding-top: 30px;
+        background: #000000d9;
+        top: 0;
+        z-index: 100;
+        left: 0;
+    }
+
+    #header-menu a {
+        margin: 15px 5px;
+        color: white;
+    }
+
+    #burger {
+        display: block;
+    }
+
+    #burger svg {
+        width: 36px;
+        height: 36px;
+        fill: #821328;
+    }
+
+    #header-container {
+        justify-content: space-between;
+    }
+
+    #header-menu.open {
+        display: flex;
+    }
+
+    #header-menu svg {
+        display: block;
+        width: 24px;
+        fill: white;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
+
+    #main-content {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    #main-tittle {
+        font-size: 32px;
+        max-width: 490px;
+    }
+
+    #main-text {
+        margin: 0 auto;
+        font-size: 16px;
+        padding-top: 40px;
+    }
+
+    #main-image {
+        position: relative;
+        max-width: 250px;
+        right: auto;
+        margin: 38px auto 43px;
+        bottom: auto;
+    }
+
+    #main-image img {
+        max-width: 100%;
+    }
+
+    #main-container {
+        padding-bottom: 0px;
+        flex-wrap: wrap;
+    }
+
+    #advantages-container {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    #advantages-content-left-title {
+        font-size: 30px;
+        max-width: 379px;
+        padding-bottom: 40px;
+    }
+
+    #advantages-content-left-text {
+        font-size: 16px;
+        max-width: 343px;
+    }
+
+    #select-menu {
+        justify-content: center;
+        max-width: 728px;
+        align-items: center;
+    }
+
+    #points {
+        align-items: start;
+        max-width: 400px;
+    }
+
+    .advantage-text {
+        max-width: 155px;
+        font-size: 13px;
+    }
+
+    .advantage {
+        margin-top: 36px;
+    }
+
+    .advantage-title {
+        font-size: 18px;
+    }
+
+    #select-container {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    #buy-container {
+        padding-bottom: 77px;
+    }
+
+    #image {
+        display: none;
+    }
+
+    #strawberry-two {
+        display: none;
+    }
+
+    #strawberry-one {
+        left: 227px;
+        top: 295px;
+    }
+
+    #rights {
+        position: absolute;
+        bottom: 50px;
+        right: calc(50% - 78px);
+        margin-top: 0;
+    }
+
+    #footer-container {
+        flex-direction: column;
+        position: relative;
+        padding-top: 50px;
+        padding-bottom: 100px;
+    }
+
+    #footer-container .logo {
+        order: 1;
+        margin-right: 0;
+    }
+
+    #instagram {
+        order: 3;
+        margin-top: 40px;
+    }
+
+    #footer-container .number {
+        order: 2;
+        margin-top: 40px;
+    }
+
+    #main-content button {
+        margin-top: 40px;
+    }
+
+    .macaroons {
+        margin-left: 15px;
+        margin-right: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+}
+
+@media screen and (max-width: 424px) {
+    #points {
+        justify-content: center;
+    }
+
+    #header-container {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    #main-container {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    #select-container {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    #select-title {
+        font-size:30px;
+    }
+
+    #buy-container {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    #buy-title {
+        font-size: 30px;
+    }
+
+    #advantages-container {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    #footer-container {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    input.frm {
+        width: 100%;
+    }
+
+
+}
+
+@media screen and (max-width: 374px) {
+
+}

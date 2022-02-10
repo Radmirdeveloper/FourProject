@@ -1,0 +1,451 @@
+@font-face {
+    font-family: TavolgaFree;
+    src: url("../Fonts/TavolgaFree.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: GilroyMedium;
+    src: url("../Fonts/GilroyMedium.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: GilroyBold;
+    src: url("../Fonts/GilroyBold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: GilroyExtraBold;
+    src: url("../Fonts/GilroyExtraBold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: GilroyRegular;
+    src: url("../Fonts/GilroyRegular.ttf") format("truetype");
+}
+
+body {
+    margin: 0;
+    font-family: TavolgaFree, sans-serif;
+}
+
+#header {
+    background-color: rgb(235, 168, 177);
+}
+
+#header-container {
+    max-width: 1140px;
+    padding-top: 38px;
+    padding-bottom: 38px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo a {
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    margin-right: 231px;
+}
+
+#header-menu {
+    margin-right: 335px;
+    justify-content: space-between;
+    display: flex;
+    width: 314px;
+}
+
+#header-menu a {
+    font-size: 14px;
+    font-family: GilroyMedium, sans-serif;
+    color: rgb(119, 11, 29);
+}
+
+.number {
+    font-size: 16px;
+    font-family: GilroyBold, sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+#header-menu a:hover {
+    border-bottom: 2px solid rgb(130, 19, 40);
+    padding-bottom: 3px;
+}
+
+#header-menu a {
+    border-bottom: 2px solid transparent;
+    padding-bottom: 3px;
+}
+
+#main {
+    background-color: rgb(235, 168, 177);
+}
+
+#main-container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-top: 135px;
+    padding-bottom: 108px;
+    display: flex;
+    align-items: end;
+}
+
+#main-tittle {
+    font-size: 55px;
+    color: rgb(255, 255, 255);
+    line-height: 1.091;
+    max-width: 580px;
+}
+
+#main-text {
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    line-height: 1.389;
+    max-width: 345px;
+    margin-top: 60px;
+}
+
+#main-content button {
+    background-image: -webkit-linear-gradient(90deg, rgb(113, 8, 30) 0%, rgb(215, 72, 92) 100%);
+    width: 240px;
+    border-radius: 30px;
+    border: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-family: GilroyBold, sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 17px;
+    margin-top: 80px;
+}
+
+
+#main-image {
+    margin-left: 14px;
+}
+
+#advantages {
+    background-color: rgb(255, 239, 239);
+}
+
+#advantages-container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 120px 0;
+}
+
+#advantages-content {
+    display: flex;
+    align-items: flex-end;
+}
+
+#advantages-content-left-title {
+    font-size: 45px;
+    color: rgb(51, 25, 7);
+    line-height: 1.222;
+    max-width: 476px;
+}
+
+#advantages-content-left-text {
+    font-size: 18px;
+    font-family: GilroyRegular, sans-serif;
+    color: rgb(51, 25, 7);
+    line-height: 1.556;
+    max-width: 399px;
+    margin-top: 60px;
+}
+
+#advantages-content-left {
+    max-width: 477px;
+}
+
+#advantages-image {
+    margin-left: 145px;
+}
+
+.circle {
+    border-radius: 50%;
+    background-color: rgb(130, 19, 40);
+    width: 70px;
+    height: 70px;
+    text-align: center;
+}
+
+.circle-number {
+    position: relative;
+    top: 14px;
+    font-size: 60px;
+    font-family: GilroyExtraBold, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.advantage {
+    max-width: 220px;
+
+}
+
+.advantage-title {
+    font-size: 20px;
+    font-family: GilroyExtraBold, sans-serif;
+    color: rgb(51, 25, 7);
+    margin-top: 20px;
+    margin-bottom: 24px;
+}
+
+.advantage-text {
+    font-size: 15px;
+    font-family: GilroyMedium, sans-serif;
+    color: rgb(51, 25, 7);
+    line-height: 1.333;
+    max-width: 216px;
+}
+
+#points {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+#select {
+    background-color: rgb(235, 168, 177);
+}
+
+#select-container {
+    padding: 120px 0;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+#select-title {
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+#select-menu {
+    margin-top: 143px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.macaroons {
+    border-width: 2px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-radius: 20px;
+    width: 259px;
+    position: relative;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.macaroons .macaroons-title {
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 109px;
+}
+
+.one-line {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 26px 20px 20px 26px;
+}
+
+.macaroons .macaroons-price {
+    max-width: 57px;
+    font-size: 15px;
+    font-family: GilroyRegular, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.macaroons-price div:first-child {
+    padding-bottom: 15px;
+}
+
+.one-line button {
+    background-image: -webkit-linear-gradient(90deg, rgb(113, 8, 30) 0%, rgb(215, 72, 92) 100%);
+    width: 130px;
+    border-radius: 25px;
+    box-sizing: border-box;
+    border: 0;
+    font-size: 16px;
+    font-family: GilroyBold, sans-serif;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+}
+
+
+.macaroons-image {
+    position: absolute;
+    top: -48px;
+    left: calc(50% - 98px);
+}
+
+.macaroons-image img {
+    width: 195px;
+}
+
+#buy {
+    background-color: rgb(255, 239, 239);
+}
+
+#buy-container {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    align-items: end;
+    padding: 98px 0 35px 0;
+    position: relative;
+}
+
+#buy-content {
+    max-width: 406px;
+    margin-left: 160px;
+}
+
+#buy-title {
+    font-size: 45px;
+    color: rgb(51, 25, 7);
+    text-align: left;
+    margin-bottom: 41px;
+}
+
+#buy-text {
+    font-size: 18px;
+    font-family: GilroyRegular, sans-serif;
+    color: rgb(51, 25, 7);
+    line-height: 1.556;
+    text-align: left;
+    max-width: 398px;
+    margin-bottom: 48px;
+}
+
+.fill {
+    font-size: 18px;
+    font-family: GilroyBold, sans-serif;
+    color: rgb(18, 10, 6);
+    margin-bottom: 20px;
+}
+
+.frm {
+    border-width: 1px;
+    border-color: rgb(130, 19, 40);
+    border-style: solid;
+    border-radius: 30px;
+    width: 293px;
+    padding: 22px;
+    margin-bottom: 15px;
+    outline: none;
+    box-sizing: border-box;
+    background: rgb(255, 239, 239);
+}
+
+::placeholder {
+    font-size: 15px;
+    font-family: GilroyBold, sans-serif;
+    color: rgb(118, 12, 34);
+}
+
+#your-select {
+    margin-bottom: 25px;
+}
+
+#data button {
+    border-radius: 30px;
+    background-image: -webkit-linear-gradient(90deg, rgb(113, 8, 30) 0%, rgb(215, 72, 92) 100%);
+    width: 295px;
+    padding: 19px;
+    font-size: 18px;
+    font-family: GilroyBold, sans-serif;
+    color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    border: 0;
+}
+
+#buy-container #image {
+    padding-top: 100px;
+}
+
+#footer {
+    background-color: rgb(192, 112, 124);
+}
+
+#footer-container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 73px 0 62px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo-rights {
+    max-width: 165px;
+}
+
+#rights {
+    font-size: 12px;
+    font-family: GilroyRegular, sans-serif;
+    color: rgb(227, 172, 180);
+    margin-top: 19px;
+}
+
+#footer-container .logo {
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    margin-right: 231px;
+}
+
+#instagram {
+    text-align: center;
+    font-size: 0;
+}
+
+#instagram-logo svg {
+    width: 35px;
+    height: 35px;
+    fill: #ffffff;
+}
+
+#instagram-text {
+    font-size: 16px;
+    font-family: GilroyBold, sans-serif;
+    color: rgb(255, 255, 255);
+    margin-top: 15px;
+}
+
+#strawberry-one {
+    position: absolute;
+    top: 108px;
+    left: -21px;
+}
+
+#strawberry-two {
+    position: absolute;
+    right: 150px;
+    bottom: 165px;
+}
+
+#burger {
+    display: none;
+}
+
+#header-menu svg {
+    display: none;
+}
+.hover:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+.hover:active {
+    opacity: 0.7;
+}
